@@ -1,0 +1,73 @@
+<div class="box">
+  <form action="http://localhost:3000/print" method="post">
+    <div class="row">
+      <div>
+        <label for="station">સ્ટેશન</label>
+        <br />
+        <input type="text" name="station" id="" />
+      </div>
+      <div>
+        <label for="quality">ક્વૉલિટી</label>
+        <br />
+        <input type="text" name="quality" id="" />
+      </div>
+      <div>
+        <label for="season">સિઝન</label>
+        <br />
+        <input type="text" name="season" id="" />
+      </div>
+      <div>
+        <label for="partyMark">પાર્ટી-માર્ક</label>
+        <br />
+        <input type="text" name="partyMark" id="" />
+      </div>
+    </div>
+    <br />
+    <div class="row">
+      <div>
+        <label for="lotNumber">લોટ નંબર</label>
+        <br />
+        <input type="text" name="lotNumber" id="" />
+      </div>
+      <div>
+        <label for="prNumber">પીઆર નંબર</label>
+        <br />
+        <input type="text" name="prNumber" id="" />
+        <br />
+        <label for="prNumberAutoIncrement" style="margin-top: 0.5rem;">જાતે
+          વધારો</label>
+        <input
+          type="checkbox"
+          name="prNumberAutoIncrement"
+          id=""
+          value="true"
+          checked
+        />
+      </div>
+      <div>
+        <label for="balesNumber">ગાંસડી નંબર</label>
+        <br />
+        <input type="text" name="balesNumber" id="" />
+        <br />
+        <label for="balesNumberAutoIncrement" style="margin-top: 0.5rem;">જાતે
+          વધારો</label>
+        <input
+          type="checkbox"
+          name="balesNumberAutoIncrement"
+          id=""
+          value="true"
+          checked
+        />
+      </div>
+      <div>
+        <label for="lableQuantity">લેબલ ની સંખ્યા</label>
+        <br />
+        <input type="text" name="lableQuantity" id="" value="100" />
+      </div>
+    </div>
+    <div>
+      <button type="submit">પ્રિન્ટ કરો</button>
+      <button type="reset" class="reset">રીસેટ</button>
+    </div>
+  </form>
+</div>
